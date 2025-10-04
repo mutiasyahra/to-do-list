@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌟 To-Do List</h1>
+
+      <div class="input-group">
+        <input type="text" id="task-input" placeholder="Add a new task..." />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+
+      <!-- Counter -->
+      <p id="task-counter">0/0 task completed</p>
+
+      <!-- Task List -->
+      <ul id="task-list"></ul>
+
+      <!-- Clear Completed -->
+      <button id="clear-completed-btn">
+        <i class="fa-solid fa-broom"></i> Clear Completed
+      </button>
+    </div>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
